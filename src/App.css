@@ -1,0 +1,43 @@
+/* src/style/App.css */
+
+/* Cấu hình tổng thể của container để chiếm toàn bộ chiều cao và chiều rộng */
+#root {
+  width: 100%;
+  height: 100vh; /* Chiếm toàn bộ chiều cao của màn hình */
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+/* Thiết lập layout chính cho các component */
+.full-calendar-container {
+  width: 100%;        /* Điều chỉnh chiều rộng của lịch */
+  height: 70vh;       /* Điều chỉnh chiều cao của lịch */
+  margin: 0 auto;     /* Căn giữa lịch */
+  max-width: 100%;    /* Không giới hạn chiều rộng */
+  overflow: hidden;   /* Ẩn phần tràn */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+
+/* Định dạng văn bản cho liên kết "Read the docs" */
+.read-the-docs {
+  color: #888;
+}
+
+/* Cải thiện giao diện khi không sử dụng thẻ card */
+.full-screen {
+  width: 100%;
+  height: 100vh; /* Chiếm toàn bộ chiều cao của màn hình */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

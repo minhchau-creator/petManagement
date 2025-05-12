@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                      // Cấu hình phiên bản ECMAScript
+    "module": "CommonJS",                 // Cấu hình module
+    "strict": true,                       // Bật chế độ nghiêm ngặt
+    "esModuleInterop": true,              // Cho phép sử dụng các import ES6
+    "skipLibCheck": true,                 // Bỏ qua kiểm tra thư viện
+    "forceConsistentCasingInFileNames": true, // Cố gắng giữ tên file nhất quán
+    "outDir": "./dist",                    // Thư mục xuất ra JavaScript
+    "jsx": "react"  // Thêm dòng này để hỗ trợ JSX
+  },
+  "include": [
+    "./src/**/*"                          // Bao gồm tất cả file trong thư mục src
+  ],
+  "exclude": [
+    "node_modules",                       // Loại trừ thư mục node_modules
+    "**/*.spec.ts"                        // Loại trừ các file test
+  ]
+}
